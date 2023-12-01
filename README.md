@@ -8,6 +8,8 @@ Para más detalles, consulta la documentación del proyecto.
 
 Se puede consultar el diseño a través de este enlace: https://www.figma.com/file/DcYRBcbqvNoGiWTHyO80Km/Untitled?type=design&node-id=0%3A1&mode=design&t=dtmwiLqpuDZkwxLI-1
 <br>
+El enlace de deployment: https://natalia9519.github.io/prueba-api/
+<br>
 El diseño de ordenador sería el siguiente<br>
 ![Versión ordenador](./img/version-ordenador.png)
 <br>
