@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto API Harry Potter</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    h
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto API Harry Potter</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="titulo-h1">Busca información de tu personaje favorito de
+            Harry Potter</h1>
+        <section class="search">
+            <input class="input-search" type="text" id="searchInput"
+                placeholder="Introduce el nombre y apellidos bien escritos de tu personaje">
+            <button class="button-search" onclick="searchCharacter()">Revelio</button>
+        </section>
+        <section class="section-result">
+            <article class="position-result">
+                <img src="./img/text-area.png"
+                    alt="fondo harry potter rana chocolate" class="text-area">
+
+                <div id="characterInfo"></div>
+
+            </article>
+
+            <figure class="position-result">
+                <img src="./img/image-area.png"
+                    alt="fondo harry potter rana chocolate imagen"
+                    class="text-area">
+                <div id="characterInfo2"></div>
+            </figure>
+
+        </section>
+
+        <img src="./img/harry-potter-5216110_1280.png"
+            alt="castillo harry potter" class="castle">
+        <script src="./js/data.js"></script>
+
+    </body>
 </html>

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bigelow Rules', cursive;
+    color: white;
+}
+body{
+    background-color: #030455;
+    height: 100%;
+    width: 100%;
+}
+.titulo-h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+    margin-top: 5rem;
+    justify-content: center;
+    display: flex;
+}
+.search{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.input-search{
+    align-items: center;
+    width: 20rem;
+    height: 2rem;
+    font-size: 20px;
+    color: black;
+}
+.button-search{
+    align-items: center;
+    width: 20rem;
+    height: 2rem;
+    margin-left: 2rem;
+    font-size: 20px;
+    color: black;
+}
+#characterInfo{
+    width: 20rem;
+    height: 20rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.castle{
+    bottom: 0rem;
+    right: 0rem;
+    height: 20rem;
+    align-items: center;
+    z-index: -500;
+    position: fixed;
+}
+.section-result{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    margin-top: 2rem;
+}
+.text-area{
+    height: 20rem;
+    z-index: -200;
+    position: absolute;
+   
+}
+.img-rana{
+    border-radius: 50px;
+    height: 200px;
+    margin-top: 6rem;
+    margin-left: 6rem;
+    z-index: -202;
+    position: absolute;
+}
+.position-result{
+    height: 20rem;
+}
