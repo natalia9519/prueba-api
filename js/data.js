@@ -51,7 +51,7 @@
           `;
         } else {
           const characterInfo = document.getElementById('characterInfo');
-          characterInfo.innerHTML = 'Personaje no encontrado, pon bien el nombre y apellidos';
+          characterInfo.innerHTML = 'MUGGLE, Escribe bien';
         }
       })
       .catch(error => {
