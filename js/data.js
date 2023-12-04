@@ -1,31 +1,3 @@
-  /// ESTE YA MUESTRA HASTA FOTO PERO NO EL OBJETO QUE YO BUSCO
-
-  // function searchCharacter() {
-  //   const searchQuery = document.getElementById('searchInput').value;
-  //   fetch(`https://hp-api.onrender.com/api/characters?name=${searchQuery}`)
-  //     .then(response => response.json())
-  //     .then(data => {
-  //       const characterInfo = document.getElementById('characterInfo');
-  //      console.log('characterInfo')
-  //       if (data.length >= 0) {
-  //         const searchedCharacter = data[0]; 
-  //         characterInfo.innerHTML = `
-  //           <h2>${searchedCharacter.name}</h2>
-  //           <p>House: ${searchedCharacter.house}</p>
-  //           <p>Patronus: ${searchedCharacter.patronus}</p>
-  //           <img src="${searchedCharacter.image}" alt="${searchedCharacter.name}">
-  //             `;
-  //       } else {
-  //         characterInfo.innerHTML = 'Character not found';
-  //       }
-  //     })
-  //   .catch(error => {
-  //     console.error('Error fetching character:', error);
-  //   });
-  // }
-
-
-  //ESTE ME DICE QUE NO EXISTE NADA
   function searchCharacter() {
     const searchQuery = document.getElementById('searchInput').value;
     fetch(`https://hp-api.onrender.com/api/characters`)
